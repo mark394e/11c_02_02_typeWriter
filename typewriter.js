@@ -18,9 +18,6 @@ function startTyping() {
     shownText = shownText + hiddenText[i];
     console.log(shownText);
 
-    // if (hiddenText[i] === " ") {
-    //   // play space sound
-    // } else
     i++;
     console.log(i);
     document.querySelector("#typewriter").textContent = shownText;
